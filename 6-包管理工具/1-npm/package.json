@@ -1,0 +1,17 @@
+{
+  "name": "1-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}

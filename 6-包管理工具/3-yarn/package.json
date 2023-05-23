@@ -1,0 +1,10 @@
+{
+  "name": "3-yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {}
+}
