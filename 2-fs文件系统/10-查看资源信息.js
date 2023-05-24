@@ -31,3 +31,9 @@ fs.stat('./观书有感.txt', (error, data) => {
     console.log(data.isFile())
     console.log(data.isDirectory())
 })
+
+// 3.同步获取状态
+let data = fs.statSync('./观书有感.txt');
+console.log(data)
+console.log(data.isFile())
+console.log(data.isDirectory())

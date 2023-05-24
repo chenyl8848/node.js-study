@@ -22,7 +22,10 @@ const fs = require('fs')
 //     console.log('递归创建文件夹成功')
 // })
 
-// 4.读取文件夹
+// 4.递归同步创建文件夹
+// fs.mkdirSync('./a/b/c', {recursive: true});
+
+// 5.读取文件夹
 // readdir read:读取 dir:directory 目录
 // fs.readdir('./', (error, data) => {
 //     if (error) {
@@ -48,7 +51,7 @@ const fs = require('fs')
 //     console.log(data)
 // })
 
-// 5.删除文件夹
+// 6.删除文件夹
 // fs.rmdir('./文件', error => {
 //     if (error) {
 //         console.log('删除文件夹失败', error)
@@ -57,7 +60,7 @@ const fs = require('fs')
 //     console.log('删除文件夹成功')
 // })
 
-// 6.递归删除文件夹 
+// 7.递归删除文件夹 
 // 递归删除文件夹失败 [Error: ENOTEMPTY: directory not empty, rmdir 'E:\JavaEE\frontend\nodejs-study\2-fs文件系统\a'] 
 
 // 不推荐使用
@@ -77,3 +80,6 @@ fs.rm('./a', {recursive: true}, error => {
     }
     console.log('递归删除文件成功')
 })
+
+//同步递归删除文件夹
+fs.rmdirSync('./a', {recursive: true})
