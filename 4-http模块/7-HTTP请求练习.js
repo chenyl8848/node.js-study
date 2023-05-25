@@ -14,7 +14,7 @@ const server = http.createServer((request, response) => {
     let { method } = request
 
     // 请求路径
-    let {pathname} = new URL(request.url, 'http://127.0.0.1')
+    let { pathname } = new URL(request.url, 'http://127.0.0.1')
 
     if (method === 'GET' && pathname === '/login') {
         response.end('login')

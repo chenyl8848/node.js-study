@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "id": "JazW_KL3U",
+      "item": "按摩",
+      "happenTime": "2023-05-25",
+      "type": "-1",
+      "amount": "1000",
+      "remark": "小姐的手法真不错~~~"
+    },
+    {
+      "id": "dNDBzWt9v",
+      "item": "洗脚",
+      "happenTime": "2023-05-18",
+      "type": "-1",
+      "amount": "500",
+      "remark": "洗脚真爽啊"
+    },
+    {
+      "id": "9ah2g8FpI",
+      "item": "发工资",
+      "happenTime": "2023-05-05",
+      "type": "1",
+      "amount": "10000",
+      "remark": "发工资啦~"
+    }
+  ]
+}
