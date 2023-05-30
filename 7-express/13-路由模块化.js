@@ -12,7 +12,6 @@ const home = require('./routes/home')
 app.use(admin)
 app.use(home)
 
-
 app.all('*', (req, resp) => {
     resp.send(`<h1>404 Not Found</h1>`)
 })
