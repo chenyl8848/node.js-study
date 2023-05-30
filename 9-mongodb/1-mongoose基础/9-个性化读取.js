@@ -4,6 +4,8 @@ const mongoose = require('mongoose')
 // 2.连接 mongodb 服务
 mongoose.connect('mongodb://127.0.0.1:27017/test')
 
+mongoose.set('strictQuery', true)
+
 // 3.设置连接成功的回调函数
 mongoose.connection.once('open', () => {
     // 1、创建文档结构
