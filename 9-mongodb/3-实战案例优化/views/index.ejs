@@ -36,7 +36,7 @@
           <% notes.forEach(item=> { %>
             <div class="panel <%= item.type === '-1' ? 'panel-danger' : 'panel-success'%>">
               <div class="panel-heading">
-                <%= item.happenTime %>
+                <%= moment(item.happenTime).format('YYYY-MM-DD') %>
               </div>
               <div class="panel-body">
                 <div class="col-xs-6">
